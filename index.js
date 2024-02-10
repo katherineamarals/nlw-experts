@@ -1,96 +1,96 @@
-const perguntas = [
-    {
-      pergunta: "Qual palavra-chave é usada para declarar uma variável em JavaScript?",
-      respostas: [
-        "var",
-        "let",
-        "const",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual função é usada para imprimir mensagens no console?",
-      respostas: [
-        "print()",
-        "log()",
-        "console.log()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a sintaxe correta para um comentário de linha única em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "<!-- Este é um comentário -->",
-        "/* Este é um comentário */",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para converter uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "stringToNumber()",
-        "toInteger()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você declara uma função em JavaScript?",
-      respostas: [
-        "função myFunction()",
-        "function:myFunction()",
-        "function myFunction()",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a saída do seguinte código: console.log(typeof 42);",
-      respostas: [
-        "number",
-        "string",
-        "undefined",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual operador é usado para verificar a igualdade estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===", 
-        "=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "addToEnd()",
-        "append()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'forEach()' faz em JavaScript?",
-      respostas: [
-        "Itera sobre os elementos de um array",
-        "Adiciona um novo elemento ao array",
-        "Remove o último elemento do array",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como você seleciona um elemento HTML com o ID 'demo' em JavaScript?",
-      respostas: [
-        "select('demo')",
-        "document.getElementByName('demo')",
-        "document.getElementById('demo')",
-      ],
-      correta: 2
-    },
-  ];
-  
+  const perguntas = [
+  {
+    pergunta: "Qual anime foi lançado em 2006 e apresenta um grupo de estudantes que formam uma banda para salvar sua escola da falência?",
+    respostas: [
+      "Naruto",
+      "Death Note",
+      "K-On!",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do protagonista do anime 'One Piece', que começou a ser exibido em 1999 e continua até hoje?",
+    respostas: [
+      "Luffy",
+      "Goku",
+      "Naruto",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual anime apresenta uma história sobre alquimia e acompanha os irmãos Edward e Alphonse Elric em sua busca pela Pedra Filosofal?",
+    respostas: [
+      "Attack on Titan",
+      "Fullmetal Alchemist",
+      "Tokyo Ghoul",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do anime em que os personagens são seres humanos que lutam contra titãs devoradores de humanos?",
+    respostas: [
+      "Attack on Titan",
+      "One Punch Man",
+      "My Hero Academia",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o anime sobre um garoto que descobre que seu pai é o maior ninja da vila e deseja se tornar o ninja mais forte?",
+    respostas: [
+      "Dragon Ball Z",
+      "One Piece",
+      "Naruto",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o nome do anime sobre um mundo onde os humanos lutam contra gigantes chamados 'ghouls'?",
+    respostas: [
+      "Attack on Titan",
+      "Tokyo Ghoul",
+      "One Punch Man",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual anime se passa em uma escola para super-heróis e acompanha o jovem Izuku Midoriya em sua jornada para se tornar um grande herói?",
+    respostas: [
+      "One Piece",
+      "Naruto",
+      "My Hero Academia",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual anime apresenta um mundo onde as pessoas são divididas em 'quirks' e segue a história de um menino sem poderes que sonha em se tornar um grande herói?",
+    respostas: [
+      "One Punch Man",
+      "Dragon Ball Z",
+      "My Hero Academia",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual anime segue a jornada de um jovem que se torna um guerreiro lendário em busca das esferas do dragão para realizar desejos?",
+    respostas: [
+      "Naruto",
+      "Dragon Ball Z",
+      "One Piece",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do anime que acompanha um protagonista que se torna o herói mais forte do mundo com apenas um soco?",
+    respostas: [
+      "One Piece",
+      "Naruto",
+      "One Punch Man",
+    ],
+    correta: 2
+  },
+];
+
     const quiz = document.querySelector('#quiz')
     const template = document.querySelector('template')
     
