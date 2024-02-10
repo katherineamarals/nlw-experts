@@ -1,4 +1,4 @@
-# nlw-experts
+# ✨ nlw-experts
 Aplicação desenvolvida no NLW Expert da Rocketseat na trilha HTML+CSS+JS.
 
 ## 🚀 Tecnologias
