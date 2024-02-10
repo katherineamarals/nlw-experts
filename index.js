@@ -1,13 +1,13 @@
   const perguntas = [
     {
-      pergunta: "Em qual desses animes um grupo de estudantes forma uma banda para salvar sua escola da falência?",
+      pergunta: "Em K-On!, qual é o instrumento principal que Yui Hirasawa aprende a tocar ao entrar para o clube de música da escola?",
       respostas: [
-        "Sailor Moon",
-        "K-On!",
-        "Fruits Basket",
+        "Violino",
+        "Guitarra",
+        "Teclado",
       ],
       correta: 1
-    },     
+    }   
   {
     pergunta: "Qual é o nome do protagonista do anime 'One Piece', que começou a ser exibido em 1999 e continua até hoje?",
     respostas: [
