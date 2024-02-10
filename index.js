@@ -7,7 +7,7 @@
         "Teclado",
       ],
       correta: 1
-    }   
+    },  
   {
     pergunta: "Qual é o nome do protagonista do anime 'One Piece', que começou a ser exibido em 1999 e continua até hoje?",
     respostas: [
