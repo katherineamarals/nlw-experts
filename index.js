@@ -1,13 +1,13 @@
   const perguntas = [
-  {
-    pergunta: "Qual anime foi lançado em 2006 e apresenta um grupo de estudantes que formam uma banda para salvar sua escola da falência?",
-    respostas: [
-      "Naruto",
-      "Death Note",
-      "K-On!",
-    ],
-    correta: 2
-  },
+    {
+      pergunta: "Em qual desses animes um grupo de estudantes forma uma banda para salvar sua escola da falência?",
+      respostas: [
+        "Sailor Moon",
+        "K-On!",
+        "Fruits Basket",
+      ],
+      correta: 1
+    }    
   {
     pergunta: "Qual é o nome do protagonista do anime 'One Piece', que começou a ser exibido em 1999 e continua até hoje?",
     respostas: [
@@ -36,40 +36,40 @@
     correta: 0
   },
   {
-    pergunta: "Qual é o anime sobre um garoto que descobre que seu pai é o maior ninja da vila e deseja se tornar o ninja mais forte?",
+    pergunta: "Qual é o nome do anime que acompanha a vida de um grupo de colegiais que lutam contra monstros em nome do amor e da justiça?",
     respostas: [
-      "Dragon Ball Z",
-      "One Piece",
-      "Naruto",
+      "Sailor Moon",
+      "Pokémon",
+      "Yu Yu Hakusho",
     ],
-    correta: 2
+    correta: 0
   },
   {
-    pergunta: "Qual é o nome do anime sobre um mundo onde os humanos lutam contra gigantes chamados 'ghouls'?",
+    pergunta: "Qual é o nome do anime que se passa em um mundo futurista e segue a tripulação de uma nave espacial em busca de aventuras e recompensas?",
     respostas: [
-      "Attack on Titan",
-      "Tokyo Ghoul",
+      "Cowboy Bebop",
+      "Space Battleship Yamato",
+      "Galaxy Express 999",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual anime se passa em um mundo onde humanos coexistem com espíritos chamados Hollows e segue a história de Ichigo Kurosaki?",
+    respostas: [
+      "Bleach",
+      "Naruto",
       "One Punch Man",
     ],
-    correta: 1
+    correta: 0
   },
   {
-    pergunta: "Qual anime se passa em uma escola para super-heróis e acompanha o jovem Izuku Midoriya em sua jornada para se tornar um grande herói?",
+    pergunta: "Qual é o nome do anime que segue a história de Light Yagami, um estudante que encontra um caderno capaz de matar pessoas cujos nomes são escritos nele?",
     respostas: [
-      "One Piece",
+      "Death Note",
       "Naruto",
-      "My Hero Academia",
+      "Fullmetal Alchemist",
     ],
-    correta: 2
-  },
-  {
-    pergunta: "Qual anime apresenta um mundo onde as pessoas são divididas em 'quirks' e segue a história de um menino sem poderes que sonha em se tornar um grande herói?",
-    respostas: [
-      "One Punch Man",
-      "Dragon Ball Z",
-      "My Hero Academia",
-    ],
-    correta: 2
+    correta: 0
   },
   {
     pergunta: "Qual anime segue a jornada de um jovem que se torna um guerreiro lendário em busca das esferas do dragão para realizar desejos?",
